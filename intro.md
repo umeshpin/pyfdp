@@ -17,7 +17,11 @@ Author: Dr. Umesh P
 ### Good to have
 
 - Python 3 >> Download from here  https://www.python.org/downloads/release/python-370/
-
+- A Python IDE
+   -IDLE (Available in Win installation) 
+   -Sublime Text https://www.sublimetext.com/
+   -Atom https://atom.io/
+   -Pycharm - https://www.jetbrains.com/pycharm/download/#section=windows
 
 ## Table Of Contents <a name="top"></a>
 
