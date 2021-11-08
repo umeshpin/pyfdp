@@ -17,7 +17,7 @@ Author: Dr. Umesh P
 ### Good to have
 
 - Python 3 >> Download from here  https://www.python.org/downloads/release/python-370/
-A Python IDE
+- A Python IDE
 1. IDLE (Available with Python) 
 2. Sublime Text https://www.sublimetext.com/
 3. Atom https://atom.io/
