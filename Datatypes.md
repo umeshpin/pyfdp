@@ -60,10 +60,8 @@ Operator      Description
 1. ==              Checks if the value of two operands is equal or not, if yes, then condition becomes true
 2. !=              Checks if the value of two operands are equal or not
 3. <>              Checks if the value of two operands are equal or not
-4. >              Checks if the value of left operand is greater than the value of right operand
-5. <              Checks if the value of left operand is less than the value of right operand
-6. >=              Checks if the value of left operand is greater than or equal to the value of right operand
-7. <=              Checks if the value of left operand is less than or equal to the value of right operand
+4. <              Checks if the value of left operand is less than the value of right operand
+5. <=              Checks if the value of left operand is less than or equal to the value of right operand
 
 # Membership Operators
 
