@@ -71,4 +71,24 @@ To split an array with elements 0 to 19 into three, try the following command:
 x =array(range(20))
 split=array_split(x, 3)
 ```
+Easy way to define a matrix
+```python
+B=np.mat('23,24;25,26')
+print(B)
+
+```
+
+A polynomial can be represented by
+```python
+eq=np.poly1d([1,-5,6])
+print(eq)
+print(np.roots(eq))
+```
+Derivative and integrals
+```python
+print(eq.deriv())	  # derivative of eq	
+print(eq.integ(k=4))    #integral of eq with constant of integration 4
+```
+
+
 
