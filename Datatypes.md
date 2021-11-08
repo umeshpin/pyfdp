@@ -2,7 +2,17 @@ Python lists
 
 A list contains items separated by commas and enclosed within square brackets. All the items belonging to a list can be of different data type.
 
-mylist = [ 'kerala', 257 , 2.23,0, 70.2 ] >>>smalllist = [123, 'university'] >>>print mylist          	        # Prints complete list >>>print mylist[0]       	        # Prints first element of the list >>>print mylist[1:3]     	        # Prints elements starting from 2nd to 4th >>>print mylist[2:]      	        # Prints elements starting from 3rd element >>>print smalllist * 2  	# Prints list two times >>>print mylist + smalllist	# Prints concatenated lists
+```python
+mylist = [ 'kerala', 257 , 2.23,0, 70.2 ] 
+smalllist = [123, 'university']
+print(mylist) 
+print(mylist[0])
+print(mylist[1:3])
+print(mylist + smalllist)
+```
+
+
+>>> >>>       	        # Prints complete list >>>print        	        # Prints first element of the list >>>    	        # Prints elements starting from 2nd to 4th >>>print mylist[2:]      	        # Prints elements starting from 3rd element >>>print smalllist * 2  	# Prints list two times >>>	# Prints concatenated lists
 
 A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, tuples are enclosed within parentheses.
 
