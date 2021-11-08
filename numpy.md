@@ -145,10 +145,11 @@ plt.plot([ 1 , 2, 3 ,4 ], [ 4 ,3 , 2, 1 ], 'ro')
 You can plot the graph using different colors and styles by putting an argument after the plot function.
 
 ```python
-import matplotlib.pyplot 
-x=arange(1.,10.,0.1) 
-y=x*x plot(x,y,'g--') 
-show()
+import matplotlib.pyplot as plt
+import numpy as np 
+x=np.arange(1.,10.,0.1) 
+y=x*x 
+plt.plot(x,y,'g--')
 ```
 
 After plotting the graph, to view it, you need to type show()command. 
@@ -163,10 +164,12 @@ plot(x,y,'g^')		# Green triangle
 Standard mathematical function can also be plotted. Let us plot sine curve.
 
 ```python
-from pylab import * 
-x = arange(0.,10.,0.1)	                # to define x values 
-y = sin(x)				# function definition 
-plot(x,y)				# to plot 
-grid(True)				# to show graph in grid 
-show()				        # to show the plot
+import matplotlib.pyplot as plt
+import numpy as np 
+
+x = np.arange(0.,10.,0.1)	                # to define x values 
+y = np.sin(x)				# function definition 
+plt.plot(x,y)				# to plot 
+plt.grid(True)				# to show graph in grid 
+
 ```
