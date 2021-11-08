@@ -1,8 +1,9 @@
 # Python 3 Crash Course
 
-Author: methylDragon  
-Contains a syntax reference for Python 3!  
-I'll be adapting it from the ever amazing Derek Banas: https://www.youtube.com/watch?v=N4mEzFDjqtA
+Author: Dr. Umesh P
+
+*Python* is a general purpose, interpreted, interactive, object-oriented and high-level programming language. Python was created by Guido van Rossum in the late eighties and early nineties. Python is free to use, even for commercial products, because of its OSI-approved open source license. Python source code is now available under the GNU General Public License (GPL)
+
 
 ------
 
