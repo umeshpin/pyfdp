@@ -77,6 +77,16 @@ B=np.mat('23,24;25,26')
 print(B)
 
 ```
+Eigen values and vectors 
+```python
+from numpy import linalg as LA
+M=np.mat('5,0,0;1,2,1;1,1,2')
+eigval,eigvect=LA.eig(A) 
+print(eigval)			# Eigen values of matrix M
+print(eigvect)			# Eigen vector of matrix M
+```
+
+
 
 A polynomial can be represented by
 ```python
