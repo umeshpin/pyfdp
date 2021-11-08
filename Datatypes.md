@@ -1,4 +1,5 @@
-Python Datatypes 
+## Python Datatypes 
+----- 
 # list
 
 A list contains items separated by commas and enclosed within square brackets. All the items belonging to a list can be of different data type.
