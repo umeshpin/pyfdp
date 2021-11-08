@@ -57,21 +57,21 @@ mydict['james bond'] >>>mydict['binary'] >>>mydict['year’]
 Python also uses similar operators to describe a mathematical operation. Addition, subtraction multiplication and division are described by +, -, *, / respectively. 
 
 Operator      Description
-==              Checks if the value of two operands is equal or not, if yes, then condition becomes true
-!=              Checks if the value of two operands are equal or not
-<>              Checks if the value of two operands are equal or not
->              Checks if the value of left operand is greater than the value of right operand
-<              Checks if the value of left operand is less than the value of right operand
->=              Checks if the value of left operand is greater than or equal to the value of right operand
-<=              Checks if the value of left operand is less than or equal to the value of right operand
+1. ==              Checks if the value of two operands is equal or not, if yes, then condition becomes true
+2. !=              Checks if the value of two operands are equal or not
+3. <>              Checks if the value of two operands are equal or not
+4. >              Checks if the value of left operand is greater than the value of right operand
+5. <              Checks if the value of left operand is less than the value of right operand
+6. >=              Checks if the value of left operand is greater than or equal to the value of right operand
+7. <=              Checks if the value of left operand is less than or equal to the value of right operand
 
 # Membership Operators
 
 One of key the features of Python programming language is that,  it has membership operators, which test for membership in a sequence, such as strings, lists, or tuples. There are two membership operators explained below:
 
 Operator  
-in :   valuates to true, if it finds a variable in the specified sequence and false, otherwise.
-not in :    Evaluates to true, if it does not finds a variable in the specified sequence and false otherwise.
+- in :   valuates to true, if it finds a variable in the specified sequence and false, otherwise.
+- not in :    Evaluates to true, if it does not finds a variable in the specified sequence and false otherwise.
 
 Try the following code
 
