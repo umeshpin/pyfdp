@@ -1,4 +1,5 @@
-Python lists
+Python Datatypes 
+# list
 
 A list contains items separated by commas and enclosed within square brackets. All the items belonging to a list can be of different data type.
 
@@ -6,24 +7,35 @@ A list contains items separated by commas and enclosed within square brackets. A
 mylist = [ 'kerala', 257 , 2.23,0, 70.2 ] 
 smalllist = [123, 'university']
 print(mylist) 
-print(mylist[0])
-print(mylist[1:3])
-print(mylist + smalllist)
+
+```
+Now Try 
+
+```python
+print(mylist[0])  # Prints first element of the list
+print(mylist[1:3])  # Prints elements starting from 2nd to 4th
+print(mylist[2:])   # Prints elements starting from 3rd element 
+print(mylist + smalllist)  # Prints concatenated lists
 ```
 
-
->>> >>>       	        # Prints complete list >>>print        	        # Prints first element of the list >>>    	        # Prints elements starting from 2nd to 4th >>>print mylist[2:]      	        # Prints elements starting from 3rd element >>>print smalllist * 2  	# Prints list two times >>>	# Prints concatenated lists
+# tuple 
 
 A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, tuples are enclosed within parentheses.
 
 The main differences between lists and tuples are: Lists are enclosed in square brackets and their elements and size can be changed but elements and size in tuple cannot be changed. Tuples can be considered as read-only lists.
 
->>>mytuple = ('kerala', 257, 2.23,0, 70.2)
-
 Now lets have some experiments with list and tupple
 
->>>mylist = [‘kerala’, 257, 2.23,0, 70.2] >>>mytuple = ('kerala', 257, 2.23,0, 70.2) >>>mylist[2]=0		# changes the third value in list >>>mytuple[2]=0		# Invalid syntax with tuple
+```python
+mylist = [‘kerala’, 257, 2.23,0, 70.2] 
+mytuple = ('kerala', 257, 2.23,0, 70.2) 
+```
+Now Try 
 
+```python
+mylist[2]=0		# changes the third value in list 
+mytuple[2]=0		# Invalid syntax with tuple
+```
 Python Dictionary:
 
 Python’s dictionaries work like associative arrays or hashes found in Perl and consist of key-value pairs. Keys can be almost any Python type, but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object. Dictionaries are enclosed by curly braces.
