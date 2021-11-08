@@ -50,8 +50,23 @@ mydict = {'james bond': '007', 'binary':'zero and one', 'year':2011}
 ```
 To get values 
 ```python
-mydict['james bond'] >>>mydict['binary'] >>>mydict['year’]
+mydict['james bond'] 
+mydict['binary'] 
+mydict['year’]
+
 ```
+From values to keys [we will learn for loop] 
+```python
+mydict = {'james bond': '007', 'binary':'zero and one', 'year':2011}
+def GetKey(val):
+   for key, value in mydict.items():
+      if val == value:
+         return key
+      return "key doesn't exist"
+print(GetKey("007"))
+```
+      
+
 
 # Operators in python
 
