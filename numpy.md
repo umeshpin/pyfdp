@@ -1,12 +1,13 @@
+# Numpy
+
 First install Numpy into your Python environment and load it 
 
-For that  
 
-Either do 
+## For Linux/ Ubuntu 
 ```python
 sudo apt-get install python-numpy
 ```
-or
+## For Windows 
 Use PIP installer
 ```python
 pip install numpy
