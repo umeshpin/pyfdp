@@ -106,3 +106,33 @@ Noe try
 ```python
 int 
 ```
+
+## Methods in List
+Lets use some Methods
+```python
+my_list=["Insta", "FB", "Youtube"]
+my_list.append("Watsapp") 
+print(my_list)
+```
+Append and Extend
+```python
+full_list = [1, 2, 3]
+supply_list = [4, 5]
+new_list=[6]
+full_list.append(supply_list)
+print(full_list)
+supply_list.extend(new_list)
+print(supply_list)
+```
+Some more trials
+```python
+full_list.pop()
+print(full_list)
+full_list.insert(1, 1.5)
+print(full_list)
+```
+
+
+
+
+
