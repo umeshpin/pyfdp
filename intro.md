@@ -14,13 +14,9 @@ Author: Dr. Umesh P
 - A decent computer
 - Internet !!!
 
-### Good to know
+### Good to have
 
-- We're using Python 3 here! Python 2 has different syntax!
-- If you have knowledge of computation structures like variables, functions, OOP, etc. it'll be easier
-- But if not... https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt
-  - Or you can learn on the go!
-
+- Python 3 >> Download from here  https://www.python.org/downloads/release/python-370/
 
 
 ## Table Of Contents <a name="top"></a>
