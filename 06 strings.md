@@ -13,10 +13,10 @@ Note the operator ".\" used to enter the string in the next line without changin
 Try some string operations using Python
 ```python
 stri = 'programming' 
-print stri		# Prints complete string 
-print stri[0]		# Prints first character of the string 
-print stri[2:5]	# Prints characters starting from 3rd to 6th 
-print stri[2:]		# Prints string starting from 3rd character
+print(stri)		# Prints complete string 
+print (stri[0])		# Prints first character of the string 
+print (stri[2:5])	# Prints characters starting from 3rd to 6th 
+print (stri[2:])		# Prints string starting from 3rd character
 ```
 
 Concatenation and repetition in python
