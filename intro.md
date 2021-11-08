@@ -6,8 +6,13 @@ Author: Dr. Umesh P
 
 
 ------
+## Programming Session Best Practices 
+- Doing is Learning
+- If you are not able to make it, do it twice
 
 ## Pre-Requisites
+- A decent computer
+- Internet !!!
 
 ### Good to know
 
