@@ -69,21 +69,19 @@ Operator      Description
 
 One of key the features of Python programming language is that,  it has membership operators, which test for membership in a sequence, such as strings, lists, or tuples. There are two membership operators explained below:
 
-Operator    Description
-
-in         valuates to true, if it finds a variable in the specified sequence and false, otherwise.
-
-not in    Evaluates to true, if it does not finds a variable in the specified sequence and false otherwise.
+Operator  
+in :   valuates to true, if it finds a variable in the specified sequence and false, otherwise.
+not in :    Evaluates to true, if it does not finds a variable in the specified sequence and false otherwise.
 
 Try the following code
 
 ```python
 mystring='Hello hai and bye' 
-"hai" in mystring # this will give whether string hai is present in the string str (TRUE or FALSE) 
+"hai" in mystring               # this will give whether string hai is present in the string str (TRUE or FALSE) 
 ```
 Also Try 
 ```python
-mystring.count("hai") # this will count the number of hai present in the string
+mystring.count("hai")            # this will count the number of hai present in the string
 ```
 
 # Identity Operators
