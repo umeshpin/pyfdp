@@ -70,4 +70,12 @@ S = S.replace('Working', 'Holi')
 print(S)
 ```
 
+# f-strings (Valid from Python 3.6 onwards)
+
+```python
+me = "Umesh"
+program = "FDP on Python"
+print(f"Hi! I am {me} and I welcome all of you to {program}!")
+```
+
 
