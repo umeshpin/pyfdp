@@ -99,6 +99,74 @@ Derivative and integrals
 print(eq.deriv())	  # derivative of eq	
 print(eq.integ(k=4))    #integral of eq with constant of integration 4
 ```
+The statistical tool box consists of statistical functions. The data from a Numpy array or in the word file can be imported into python and we can find mean, median, variance, correlation etc
+
+Have a look at some of the examples
+```python
+x=np.arange(-10.,10.,1)	
+print(np.mean(x))				# mean 
+print(np.var(x))				# variance 
+print(np.amin(x))				# minimum value in observation 
+print(np.amax(x))				# maximum value in observation 
+print(np.std(x))				# standard deviation of observation
+```
 
 
+# Matplotlib
+Matplotlib is an object-oriented plotting library for python. It is a MATLAB/Scilab-like application programming interface (API) and provides accurate high-quality figures, which can be used for publication purposes. 
+matplotlib contains pylab interface, which is the set of functions provided by matplotlib.pylab to plot graph. matplotlib. pyplot is a collection of command-style functions that helps matplotlib to work like MATLAB.
 
+Let us install Matplotlib
+```python
+pip install matplotlib
+```
+
+To start a plotting experiment, first we need to import matplotlib.pylab
+
+```python
+import matplotlib.pyplot as plt
+```
+
+Here library - matplotlib.pyplot - is imported and labeled as plt for easy future reference of the module.
+
+```python
+import matplotlib.pyplot as plt
+plt.plot([ 1 , 2, 3 ,4 ], [ 4 ,3 , 2, 1 ]) 
+plt.axis([ 0 , 5 , 0 , 5]) 
+plt.show()
+```
+
+The plot function accepts the plotting points as two arrays with x, y coordinate respectively. Pyplot fits a straight line to the points. If you need only a scatter diagram of the points try the following code.
+
+```python
+plt.plot([ 1 , 2, 3 ,4 ], [ 4 ,3 , 2, 1 ], 'ro')
+```
+
+You can plot the graph using different colors and styles by putting an argument after the plot function.
+
+```python
+import matplotlib.pyplot 
+x=arange(1.,10.,0.1) 
+y=x*x plot(x,y,'g--') 
+show()
+```
+
+After plotting the graph, to view it, you need to type show()command. 
+
+Here you will get a green line graph; try with r for red, y for yellow etc. We can specify shapes with cryptic reference such as  S for square, ^ for triangle etc.
+
+```python
+plot(x,y,'rs')		# Red square 
+plot(x,y,'g^')		# Green triangle
+```
+
+Standard mathematical function can also be plotted. Let us plot sine curve.
+
+```python
+from pylab import * 
+x = arange(0.,10.,0.1)	                # to define x values 
+y = sin(x)				# function definition 
+plot(x,y)				# to plot 
+grid(True)				# to show graph in grid 
+show()				        # to show the plot
+```
