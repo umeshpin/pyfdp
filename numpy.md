@@ -72,4 +72,3 @@ x =array(range(20))
 split=array_split(x, 3)
 ```
 
-T
