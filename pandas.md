@@ -102,3 +102,28 @@ import pandas as pd
 df=pd.read_csv("data_neet.csv")
 df.head(4)
 ```
+
+### Another way
+```python
+%cd /content/drive/My Drive/Data_FDP/
+df=pd.read_csv("data_neet.csv")
+df.head(4)
+```
+
+## Writing Files from Pandas
+```python
+Lines = ["This is line A\n", "This is line B\n", "This is line C\n"]
+Lines
+```
+Now lets write
+```python
+with open('Example2.txt', 'w') as writefile:
+    for line in Lines:
+        print(line)
+        writefile.write(line)
+```
+Or More specifically to some drive locations 
+```python
+with open('/content/drive/My Drive/Data_FDP/file.txt', 'w') as f:
+  f.write('content')
+```
