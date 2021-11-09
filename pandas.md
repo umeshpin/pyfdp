@@ -89,10 +89,16 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 ## Upload files to workspace 
+for a sample data downlaod the file  https://drive.google.com/file/d/1iWO_FJ_C-olnpmj4Z-nNtLnWOjyQop3r/view?usp=sharing
 
 ```python
 from google.colab import files
 uploaded = files.upload()
 ```
 
-
+Read files and head it 
+```python
+import pandas as pd
+df=pd.read_csv("data_neet.csv")
+df.head(4)
+```
